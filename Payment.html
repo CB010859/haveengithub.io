@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Payment.css">
+    <link rel="stylesheet" href="Payment.js">
+</head>
+<body>
+
+    <header class="header">
+        <a href="main.html" class="logo"> <i class="fas fa-paw"></i> Turtles in Sri Lanka</a>
+        
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="hikkaduwa.html">Hikkaduwa Turtle hatchery</a>
+            <a href="types.html">Turtle types</a>
+            <a href="threats.html">Threats</a>
+            <a href="turtleh.html">turtle hatcheries</a>
+            <a href="donate.html">Shop and Donate</a>
+        </nav>
+    </header>
+
+
+<div class="wrapper">
+  <div class="payment">
+    <div class="payment-logo">
+      <p>p</p>
+    </div>
+    
+    
+    <h2>Payment</h2>
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Card holder:</label>
+        <input type="text" class="input" placeholder="Card holders name">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">Card number:</label>
+        <input type="text" class="input" data-mask="0000 0000 0000 0000" placeholder="Card Number">
+        <i class="far fa-credit-card"></i>
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Expiry date:</label>
+          <input type="text" name="expiry-data" class="input"  placeholder="MM / YY">
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">CVC:</label>
+          <input type="text" class="input" data-mask="000" placeholder="000">
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+        
+      <div class="cbtn">
+        <button type="button" class="cbtn"><a href="confermation.html">Pay and continue</a></button>
+      </div>
+     
+      
+    </div>
+  </div>
+</div>
